@@ -438,6 +438,15 @@ footer>div{
 }
 
 @media (max-width: 768px){
+    #logo{
+        width: 2rem;
+    }
+    #logo>h1{
+        font-size: 1.8rem;
+        margin-left: 1rem;
+        color: #D3F500;
+        font-family: 'agrandirgrand_heavy';
+    }
     #mobile-menu{
         display: none;
         /* background-color: #081120 ; */
@@ -532,7 +541,7 @@ footer>div{
     }
     .service-text{
         font-size: 1.4rem;
-        width: 37rem;
+        width: 100%;
         line-height: 2.4rem;
     }
 
