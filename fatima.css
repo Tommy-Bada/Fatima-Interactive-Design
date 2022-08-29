@@ -438,14 +438,8 @@ footer>div{
 }
 
 @media (max-width: 768px){
-    #logo{
-        width: 2rem;
-    }
     #logo>h1{
         font-size: 1.8rem;
-        margin-left: 1rem;
-        color: #D3F500;
-        font-family: 'agrandirgrand_heavy';
     }
     #mobile-menu{
         display: none;
@@ -612,6 +606,7 @@ footer>div{
         display: flex;
         padding: 3rem 2rem;
         overflow-x: auto;
+        overflow-y: none;
 
     }
     .service-box{
