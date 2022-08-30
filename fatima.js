@@ -29,6 +29,29 @@ boxContainer.addEventListener("mouseover", expand)
 boxContainer.addEventListener("mouseout", shrink)
 
 
+//Hamburger Menu
+document.getElementById("hamburger-icon").addEventListener("click", function(){
+    let mobileMenu = document.querySelector("#mobile-menu");
+    let hamburgerLongLine = document.querySelectorAll(".hamburger-line-1");
+    let hamburgerShortLine = document.querySelectorAll(".hamburger-line-2");
+    if(mobileMenu.classList.contains("slidedown") == false ){
+        mobileMenu.classList.add("slidedown");
+        mobileMenu.style.opacity = 1
+        mobileMenu.style.transform = ("translateY(0vh)")
+        hamburgerShortLine[0].style.width = "5rem"
+        hamburgerShortLine[1].style.width = "5rem"
+    }
+    else{
+        mobileMenu.classList.remove("slidedown");
+        mobileMenu.style.opacity = 0
+        mobileMenu.style.transform = ("translateY(-100vh)")
+        hamburgerShortLine[0].style.width = "3rem"
+        hamburgerShortLine[1].style.width = "3rem"
+    }
+});
+
+
+
 
 
 //Testimomial Animation
