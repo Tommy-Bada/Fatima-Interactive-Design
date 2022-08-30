@@ -415,10 +415,12 @@ footer>div{
 #footer-logo{
     display: flex;
     align-items: center;
+    color: #D3F500;
 }
 #footer-logo>p{
     margin-left: 0.4rem;
     font-size: 1.3rem;
+    font-weight: bold;
 }
 #footer-top>p{
     width: 35rem;
@@ -439,7 +441,11 @@ footer>div{
 
 @media (max-width: 768px){
     #logo>h1{
-        font-size: 1.8rem;
+        font-size: 1.4rem;
+        display: none;
+    }
+    #logo>div>img{
+        width: 4rem;
     }
     #mobile-menu{
         display: none;
@@ -606,9 +612,12 @@ footer>div{
         display: flex;
         padding: 3rem 2rem;
         overflow-x: auto;
-        overflow-y: none;
-
+        overflow-y: hidden;
     }
+
+    #service-box-container::-webkit-scrollbar {
+        display: none;
+      }
     .service-box{
         width: 30rem;
         min-width: 30rem;
