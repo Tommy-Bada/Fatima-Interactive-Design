@@ -716,6 +716,7 @@ footer>div{
         width: 100%;
         font-size: 1.4rem;
         text-align: left;
+        display: none;
     }
     #footer-buttom>p{
         font-size: 1.4rem;
