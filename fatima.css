@@ -701,12 +701,12 @@ footer>div{
         align-items: center;
     }
     #footer-top{
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
     }
     #footer-logo{
         display: flex;
         align-items: center;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
     }
     #footer-logo>p{
         margin-left: 0.4rem;
@@ -719,7 +719,7 @@ footer>div{
     }
     #footer-buttom>p{
         font-size: 1.4rem;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
     }
     #socials{
         width: 12rem;
