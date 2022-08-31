@@ -582,7 +582,7 @@ footer>div{
         padding: 5rem 0rem;
     }
     .section-5-flex{
-        display: block;
+        display:block;
         padding: 0;
     }
     .profile{
@@ -605,9 +605,10 @@ footer>div{
         padding: 0 2rem;
     }
     #section-5-flex-3{
-        display: none;
+        display:block;
         width: 100%;
         margin-bottom: 0rem;
+        padding-left: 2rem;
     }
 
     /* Section 6 */
