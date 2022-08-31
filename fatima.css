@@ -230,7 +230,7 @@ header{
 #section-2-service-stat{
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
 }
 iframe{
     width: 100%;
@@ -609,6 +609,7 @@ footer>div{
         width: 100%;
         margin-bottom: 0rem;
         padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     /* Section 6 */
