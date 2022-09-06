@@ -1,5 +1,5 @@
 
-// Bastard Rotation Animation
+// Rotation Animation for the Services Section
 let boxContainer = document.querySelector("#service-box-container")
 //Hover in function
 function expand(e){
@@ -35,21 +35,29 @@ boxContainer.addEventListener("mouseout", shrink)
 let testimonialSection = document.querySelector("#section-5")
 //Hover in function
 function slideAndShow(e){
-    if(e.target.classList.contains("profile-container") && screen.width >= 768){
+    if(e.target.classList.contains("left-container") && screen.width >= 768){
         e.target.lastElementChild.style.opacity = "1"
         e.target.firstElementChild.lastElementChild.firstElementChild.style.opacity = 1
         e.target.firstElementChild.lastElementChild.lastElementChild.style.opacity = 1
-        e.target.firstElementChild.lastElementChild.firstElementChild.style.transform = "translateX(0rem)"
-        e.target.firstElementChild.lastElementChild.lastElementChild.style.transform = "translateX(0rem)"
+    }
+    if(e.target.classList.contains("right-container") && screen.width >= 768){
+        e.target.lastElementChild.style.opacity = "1"
+        e.target.firstElementChild.firstElementChild.firstElementChild.style.paddingLeft = 0
+        e.target.firstElementChild.lastElementChild.firstElementChild.style.opacity = 1
+        e.target.firstElementChild.lastElementChild.lastElementChild.style.opacity = 1
     }
 }
 function slideAndHide(e){
-    if(e.target.classList.contains("profile-container") && screen.width >= 768){
+    if(e.target.classList.contains("left-container") && screen.width >= 768){
         e.target.lastElementChild.style.opacity = "0.05"
         e.target.firstElementChild.lastElementChild.firstElementChild.style.opacity = 0
         e.target.firstElementChild.lastElementChild.lastElementChild.style.opacity = 0
-        e.target.firstElementChild.lastElementChild.firstElementChild.style.transform = "translateX(-10rem)"
-        e.target.firstElementChild.lastElementChild.lastElementChild.style.transform = "translateX(-10rem)"
+    }
+    if(e.target.classList.contains("right-container") && screen.width >= 768){
+        e.target.lastElementChild.style.opacity = "0.05"
+        e.target.firstElementChild.firstElementChild.firstElementChild.style.paddingLeft = "300%"
+        e.target.firstElementChild.lastElementChild.firstElementChild.style.opacity = 0
+        e.target.firstElementChild.lastElementChild.lastElementChild.style.opacity = 0
     }
 }
 
