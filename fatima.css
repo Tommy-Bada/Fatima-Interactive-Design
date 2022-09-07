@@ -285,6 +285,7 @@ iframe{
 .right-profile{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 3rem;
     pointer-events: none;
     transition: all 0.5s ease;
@@ -345,6 +346,7 @@ iframe{
     transform-origin: left left;
     width: 40rem;
     height: 40rem;
+    border: 0.1px solid #D3F50050;
 }
 .service-box-image{
     transform: rotate(90deg);

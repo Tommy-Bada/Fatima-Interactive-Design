@@ -42,7 +42,7 @@ function slideAndShow(e){
     }
     if(e.target.classList.contains("right-container") && screen.width >= 768){
         e.target.lastElementChild.style.opacity = "1"
-        e.target.firstElementChild.firstElementChild.firstElementChild.style.paddingLeft = 0
+        e.target.firstElementChild.firstElementChild.firstElementChild.style.paddingLeft = "140%"
         e.target.firstElementChild.lastElementChild.firstElementChild.style.opacity = 1
         e.target.firstElementChild.lastElementChild.lastElementChild.style.opacity = 1
     }
