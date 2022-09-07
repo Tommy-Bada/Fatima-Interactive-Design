@@ -624,6 +624,9 @@ footer>div{
         opacity: 1;
         margin-bottom: 3rem;
     }
+    .right-profile{
+        justify-content: left;
+    }
     .right-profile>div>img{
         padding-left: 0;
     }
