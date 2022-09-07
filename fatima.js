@@ -42,7 +42,7 @@ function slideAndShow(e){
     }
     if(e.target.classList.contains("right-container") && screen.width >= 768){
         e.target.lastElementChild.style.opacity = "1"
-        e.target.firstElementChild.firstElementChild.firstElementChild.style.paddingLeft = "140%"
+        e.target.firstElementChild.style.marginLeft = "30%"
         e.target.firstElementChild.lastElementChild.firstElementChild.style.opacity = 1
         e.target.firstElementChild.lastElementChild.lastElementChild.style.opacity = 1
     }
@@ -55,7 +55,7 @@ function slideAndHide(e){
     }
     if(e.target.classList.contains("right-container") && screen.width >= 768){
         e.target.lastElementChild.style.opacity = "0.05"
-        e.target.firstElementChild.firstElementChild.firstElementChild.style.paddingLeft = "300%"
+        e.target.firstElementChild.style.marginLeft = "75%"
         e.target.firstElementChild.lastElementChild.firstElementChild.style.opacity = 0
         e.target.firstElementChild.lastElementChild.lastElementChild.style.opacity = 0
     }

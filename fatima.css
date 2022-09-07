@@ -282,23 +282,24 @@ iframe{
     opacity: 0;
     transition: all 0.5s ease;
 }
+.right-container{
+    overflow-x: hidden;
+}
 .right-profile{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
     margin-bottom: 3rem;
     pointer-events: none;
     transition: all 0.5s ease;
-}
-.right-profile>div>img{
-    padding-left: 300%;
-    transition: all 0.5s ease;
+    margin-left: 75%;
 }
 .right-profile>div>p{
     text-align: left;
     font-size: 1.4rem;
     margin-left: 1rem;
     margin-bottom: 1rem;
+    white-space: nowrap;
     opacity: 0;
     transition: all 0.5s ease;
 }
@@ -629,6 +630,7 @@ footer>div{
     }
     .right-profile{
         justify-content: left;
+        margin-left: 0;
     }
     .right-profile>div>img{
         padding-left: 0;
