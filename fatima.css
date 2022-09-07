@@ -604,6 +604,9 @@ footer>div{
         margin-top: 2rem;
         padding: 2rem;
     }
+    .right-container, .left-container{
+        pointer-events: none;
+    };
     #section-5{
         padding: 5rem 0rem;
     }
@@ -672,6 +675,7 @@ footer>div{
         background: #0D172899;
         margin-right: 2rem;
         margin-left: 0;
+        pointer-events: none;
     }
     .service-box:hover{
         transform: rotate(0deg);
